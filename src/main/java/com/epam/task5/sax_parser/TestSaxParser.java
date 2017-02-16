@@ -1,6 +1,7 @@
-package com.epam.task5;
+package com.epam.task5.sax_parser;
 
 
+import com.epam.task5.bean.Meal;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
@@ -10,7 +11,7 @@ import org.xml.sax.helpers.XMLReaderFactory;
 import java.io.IOException;
 import java.util.List;
 
-public class Main {
+public class TestSaxParser {
     public static void main(String[] args) throws SAXException, IOException, jdk.internal.org.xml.sax.SAXException {
         XMLReader reader =  XMLReaderFactory.createXMLReader();
         MenuSaxHandler handler = new MenuSaxHandler();

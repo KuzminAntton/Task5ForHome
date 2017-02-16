@@ -1,4 +1,4 @@
-package com.epam.task5;
+package com.epam.task5.bean;
 
 import java.io.Serializable;
 

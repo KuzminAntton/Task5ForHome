@@ -1,7 +1,8 @@
-package com.epam.task5;
+package com.epam.task5.sax_parser;
 
 
 
+import com.epam.task5.bean.Meal;
 import org.xml.sax.Attributes;
 import org.xml.sax.Locator;
 import org.xml.sax.SAXException;
@@ -54,7 +55,7 @@ public class MenuSaxHandler extends DefaultHandler {
             qName = "menu-menu";
         }
 
-    MenuTagName tagName = MenuTagName.valueOf(qName.toUpperCase().replace("-","_"));
+    MenuTagNameForSax tagName = MenuTagNameForSax.valueOf(qName.toUpperCase().replace("-","_"));
         switch (tagName) {
             case NAME:
                 meal.setName(text.toString());
