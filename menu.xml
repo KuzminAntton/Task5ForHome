@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <menu>
+    <cold-snaks name="Холодные закуски">
+        <element photourl="" name="Ассорти рыбное" discription="Слабосоленная форель, семга" portion="100/20/15" price=""/>
+        <element photourl="" name="Тарталетки с красной икрой" discription="Тарталекти с красной икрой" portion="60/50/2/10" price=""/>
+        <element photourl="" name="Закуска по-русски" discription="Кусочки атлантической сельди с отварным картофелем, луком, лимоном и зеленью" portion="100/5" price=""/>
+        <element photourl="" name="Куриный рулет" discription="Куриный рулет собственного производства" portion="100/5" price=""/>
+        <element photourl="" name="Бастурма" discription="Вяленая вырезка из вяленого мяса" portion="50/5" price=""/>
+        <element photourl="" name="Ассорти мясное" discription="Нарезка из буженины, бустурмы,куриного рулета собственного производства и колбасы" portion="100/30" price=""/>
+        <element photourl="" name="Язык отварной" discription="Нарезка нежного говяжьего языка, пожается с хреном" portion="80/20/1" price=""/>
+        <element photourl="" name="Ассорти боклажаны" discription="Жареные боклажаны с помидорами" portion="100/5" price=""/>
+        <element photourl="" name="Ассорти боклажаны" discription="Жареные боклажаны с чесноком" portion="100/5" price=""/>
+        <element photourl="" name="Ассорти боклажаны" discription="Жареные боклажаны с орехами" portion="100/5" price=""/>
+        <element photourl="" name="Соленья по-домашнему" discription="Маринованые офощи" portion="150/10" price=""/>
+        <element photourl="" name="Бабушкины угошенья" discription="Ассорти из маринованых грибов" portion="120/20/10" price=""/>
+        <element photourl="" name="Сырная тарелка" discription="Сыры Чедер, дор блю, российский,мраморный" portion="100/5" price=""/>
+        <element photourl="" name="Брынза" discription="Рассольный сыр, изготовленный из овечьего молока" portion="75/5" price=""/>
+        <element photourl="" name="Зелень" discription="Кинза,лук,петрушка,укроп,базилик" portion="30" price=""/>
+        <element photourl="" name="Ассорти овощное" discription="Свежие помидоры,болгарский перец, огурцы, редис и зелень" portion="150/10" price=""/>
+        <element photourl="" name="Овощной букет" discription="Корейская морковь,капуста,фунчоза" portion="150/10" price=""/>
+        <element photourl="" name="Овощи по армянски" discription="Мелко нарезанные свежие помидоры, огурцы, болгарский перец, укроп, базилик, кинза, лист салата, зелень" portion="150/40" price=""/>
+        <element photourl="" name="Сеньер помидор" discription="Помидор, фаршированный сырным муссом" portion="150/1" price=""/>
+
+    </cold-snaks>
+    <hot-snaks name="Горячие закуски">
+        <element photourl="" name="Лобио с шампиньонами" discription="Фасоль с щампиньонами и грецкими орехами" portion="150" price="105"/>
+        <element photourl="" name="Жульен" discription="с курицей" portion="120" price="145"/>
+        <element photourl="" name="Жульен" discription="с грибами" portion="120" price="155"/>
+        <element photourl="" name="Ахтамар мясной" discription="Колбаса, ветчина, буженина, сыр, запеченные на мангале в лаваше" portion="1шт" price="165"/>
+        <element photourl="" name="Ахтамар с овощами" discription="Сыр,помидоры,зелень, запеченные на мангале в лаваше" portion="1шт" price="150"/>
+        <element photourl="" name="Сюрприз" discription="" portion="1шт" price="260"/>
+        <element photourl="" name="Креветки"  discription="отварные" portion="120" price="135"/>
+        <element photourl="" name="Креветки" discription="жареные" portion="120" price="155"/>
+        <element photourl="" name="Мидии по турецки" discription="Мидии фаршированные сыром и грецкими орехами" portion="150" price="190"/>
+        <element photourl="" name="Эскарто" discription="Виноградные улитки, фаршированные по бургундски" portion="12шт" price="230"/>
+    </hot-snaks>
+
+    <brekfasts name="Завтраки">
+        <element photourl="" name="Глазунья" discription="2 яйца(на выбор : ветчина,сыр,помидоры)" portion="150" price=""/>
+        <element photourl="" name="Омлет" discription="" portion="100" price=""/>
+        <element photourl="" name="Блинчики с мясом" discription="Жаренные блинчики с мясом" portion="150" price=""/>
+    </brekfasts>
+
+</menu>
