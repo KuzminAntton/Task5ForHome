@@ -24,18 +24,16 @@ public class MenuSaxHandler extends DefaultHandler {
     }
 
     public void startDocument() {
-        System.out.println("Parsing started");
+        //System.out.println("Parsing started");
     }
 
 
     public void endDocument() {
-        System.out.println("Parsing ended");
+        //System.out.println("Parsing ended");
     }
 
 
     public void startElement(String uri, String localeName, String qName, Attributes attributes) {
-
-        //System.out.println("startElement -> " + "uri: " + uri + ", localeName: " + localeName + ", qName: " + qName );
 
         text = new StringBuilder();
 
@@ -51,6 +49,10 @@ public class MenuSaxHandler extends DefaultHandler {
     }
 
     public void endElement(String uri, String localeName, String qName) throws SAXException {
+
+        if(qName.toUpperCase().equals("MENU:MENU")) {
+            qName = "menu-menu";
+        }
 
     MenuTagName tagName = MenuTagName.valueOf(qName.toUpperCase().replace("-","_"));
         switch (tagName) {

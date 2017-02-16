@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-        <menu>
+
+
     <cold-snaks name="Холодные закуски">
         <element photourl="" name="Ассорти рыбное" discription="Слабосоленная форель, семга" portion="100/20/15" price=""/>
         <element photourl="" name="Тарталетки с красной икрой" discription="Тарталекти с красной икрой" portion="60/50/2/10" price=""/>
@@ -41,4 +42,4 @@
         <element photourl="" name="Блинчики с мясом" discription="Жаренные блинчики с мясом" portion="150" price=""/>
     </brekfasts>
 
-</menu>
+</xsd:menu>
