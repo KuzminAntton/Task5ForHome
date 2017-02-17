@@ -34,6 +34,8 @@ public enum MenuTagNameForStax {
                 return HOT_SNACKS;
             case "breakfast":
                 return BREAKFAST;
+            case "menu":
+                return MENU_MENU;
             default:
                 throw new EnumConstantNotPresentException(MenuTagNameForStax.class,element);
 

@@ -11,12 +11,12 @@ import org.xml.sax.helpers.XMLReaderFactory;
 import java.io.IOException;
 import java.util.List;
 
-public class TestSaxParser {
-    public static void main(String[] args) throws SAXException, IOException, jdk.internal.org.xml.sax.SAXException {
+public class SaxMenuParser {
+    public static void startParser(String resourceName) throws SAXException, IOException, jdk.internal.org.xml.sax.SAXException {
         XMLReader reader =  XMLReaderFactory.createXMLReader();
         MenuSaxHandler handler = new MenuSaxHandler();
         reader.setContentHandler(handler);
-        reader.parse(new InputSource("menuu.xml"));
+        reader.parse(new InputSource(resourceName));
 
         List<Meal> mealsList = handler.getMealList();
 
